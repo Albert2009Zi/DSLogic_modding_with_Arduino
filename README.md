@@ -24,10 +24,12 @@ How to upgrade logic analyzer DSLogic U2Basic to DSLogic Plus with Arduino
 !!!     !!!
 
 Благодарности Авторам, материалы которых использовались:
-Основной материал User420 https://habr.com/ru/post/483496/ - Браво, супер...
-Неизвестный автор с HobbyTronics Ltd © 2020 http://www.hobbytronics.co.uk/arduino-external-eeprom - позаимствованы функции 
+
+ Основной материал User420 https://habr.com/ru/post/483496/ - Браво, супер...
+
+ Неизвестный автор с HobbyTronics Ltd © 2020 http://www.hobbytronics.co.uk/arduino-external-eeprom - позаимствованы функции 
 записи/чтения по I2C шине в скетче для Arduino.
 
-Даташит на EEPROM от ST Microelectronics - https://www.st.com/resource/en/datasheet/m24128-bf.pdf
+ Даташит на EEPROM от ST Microelectronics - https://www.st.com/resource/en/datasheet/m24128-bf.pdf
 
 
