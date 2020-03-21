@@ -2,6 +2,7 @@
 How to upgrade logic analyzer DSLogic U2Basic to DSLogic Plus with Arduino
 
 Для тех у кого есть Arduino и паяльник ;)
+Прилагаются фото, которые для просмотра лучше скачать :)))
 
 Описание процедуры модификации на русском:
 1. После манипуляций описанных в https://habr.com/ru/post/483496/ выпаиваем EEPROM с прошивкой
@@ -11,7 +12,7 @@ How to upgrade logic analyzer DSLogic U2Basic to DSLogic Plus with Arduino
 4. Льем в Arduino скетч I2C_Flasher.ino, открываем терминал (я пользуюсь COM Port Toolkit 4.0), настраиваем на порт,
    куда подключен Arduino и стартуем наш скетч.
 5. Скетч автоматом заменит нужные байты. Для пущей убедительности можно скопировать считанный Firmware в любой HEX редактор
-   и сравнить с оригинальной прошивкой (они имеются в ссылках на https://habr.com/ru/post/483496/). У меня все получилось 
+   и сравнить с оригинальной прошивкой (прошивки имеются в ссылках на https://habr.com/ru/post/483496/). У меня все получилось 
    (см. картинку DSLogic dump compare.jpg).
 6. Паяем EEPROM обратно в анализатор (у меня получилось "кататак" DSLogic U2Basic after modification.jpg).
    Запускаем. Радуемся DSLogic Plus.
