@@ -20,7 +20,7 @@ Wire.begin(); //
 void loop() {
     if (address < 16384)
    {
-    Serial.print(char(readEEPROM(init_address, address))); //передаем читанные данные в com порт, потом можно их сравнить с оригинальным firmware, редактировать и т.п.
+    Serial.print(char(readEEPROM(init_address, address))); //передаем считанные данные в com порт, потом можно их сравнить с оригинальным firmware, редактировать и т.п.
     address=address+1;
     }
     if (readEEPROM(init_address, 0x1999)!=0x20) //сразу же патчим наш firmware под 256Mbit оперативку
